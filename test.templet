@@ -1,0 +1,14 @@
+<html xmlns:t="http://www.toluju.com/ns/templet">
+<head>
+<title>Templet Test</title>
+</head>
+<body>
+
+<ul>
+<t:each list="values" item="value">
+<li>${value}</li>
+</t:each>
+</ul>
+
+</body>
+</html>
